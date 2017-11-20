@@ -10,7 +10,9 @@ namespace UI_Console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            var name = "test";
+            Console.WriteLine("Hello World"+name);
+
             Console.ReadLine();
         }
     }
